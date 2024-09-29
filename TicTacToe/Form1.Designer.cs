@@ -1,180 +1,198 @@
 ﻿namespace TicTacToe
 {
-    partial class Form1
-    {
-        /// <summary>
-        ///  Required designer variable.
-        /// </summary>
-        private System.ComponentModel.IContainer components = null;
+	partial class formTicTacToe
+	{
+		/// <summary>
+		///  Required designer variable.
+		/// </summary>
+		private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        ///  Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null))
-            {
-                components.Dispose();
-            }
-            base.Dispose(disposing);
-        }
+		/// <summary>
+		///  Clean up any resources being used.
+		/// </summary>
+		/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+		protected override void Dispose(bool disposing)
+		{
+			if (disposing && (components != null))
+			{
+				components.Dispose();
+			}
+			base.Dispose(disposing);
+		}
 
-        #region Windows Form Designer generated code
+		#region Windows Form Designer generated code
 
-        /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
-        /// </summary>
-        private void InitializeComponent()
-        {
-            label1 = new Label();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
-            button8 = new Button();
-            button9 = new Button();
-            button10 = new Button();
-            SuspendLayout();
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(109, 14);
-            label1.Name = "label1";
-            label1.Size = new Size(50, 20);
-            label1.TabIndex = 0;
-            label1.Text = "label1";
-            // 
-            // button1
-            // 
-            button1.Location = new Point(437, 365);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 1;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(137, 138);
-            button2.Name = "button2";
-            button2.Size = new Size(94, 29);
-            button2.TabIndex = 2;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            button3.Location = new Point(237, 138);
-            button3.Name = "button3";
-            button3.Size = new Size(94, 29);
-            button3.TabIndex = 3;
-            button3.Text = "button3";
-            button3.UseVisualStyleBackColor = true;
-            button3.Click += button3_Click;
-            // 
-            // button4
-            // 
-            button4.Location = new Point(337, 138);
-            button4.Name = "button4";
-            button4.Size = new Size(94, 29);
-            button4.TabIndex = 4;
-            button4.Text = "button4";
-            button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            button5.Location = new Point(137, 183);
-            button5.Name = "button5";
-            button5.Size = new Size(94, 29);
-            button5.TabIndex = 5;
-            button5.Text = "button5";
-            button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            button6.Location = new Point(237, 183);
-            button6.Name = "button6";
-            button6.Size = new Size(94, 29);
-            button6.TabIndex = 6;
-            button6.Text = "button6";
-            button6.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            button7.Location = new Point(337, 183);
-            button7.Name = "button7";
-            button7.Size = new Size(94, 29);
-            button7.TabIndex = 7;
-            button7.Text = "button7";
-            button7.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            button8.Location = new Point(137, 232);
-            button8.Name = "button8";
-            button8.Size = new Size(94, 29);
-            button8.TabIndex = 8;
-            button8.Text = "button8";
-            button8.UseVisualStyleBackColor = true;
-            // 
-            // button9
-            // 
-            button9.Location = new Point(237, 232);
-            button9.Name = "button9";
-            button9.Size = new Size(94, 29);
-            button9.TabIndex = 9;
-            button9.Text = "button9";
-            button9.UseVisualStyleBackColor = true;
-            // 
-            // button10
-            // 
-            button10.Location = new Point(337, 232);
-            button10.Name = "button10";
-            button10.Size = new Size(94, 29);
-            button10.TabIndex = 10;
-            button10.Text = "button10";
-            button10.UseVisualStyleBackColor = true;
-            // 
-            // Form1
-            // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(button10);
-            Controls.Add(button9);
-            Controls.Add(button8);
-            Controls.Add(button7);
-            Controls.Add(button6);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(label1);
-            Name = "Form1";
-            Text = "Form1";
-            ResumeLayout(false);
-            PerformLayout();
-        }
+		/// <summary>
+		///  Required method for Designer support - do not modify
+		///  the contents of this method with the code editor.
+		/// </summary>
+		private void InitializeComponent()
+		{
+			pb1 = new PictureBox();
+			pb2 = new PictureBox();
+			pb3 = new PictureBox();
+			pb4 = new PictureBox();
+			pb5 = new PictureBox();
+			pb6 = new PictureBox();
+			pb7 = new PictureBox();
+			pb8 = new PictureBox();
+			pb9 = new PictureBox();
+			lblHeading = new Label();
+			((System.ComponentModel.ISupportInitialize)pb1).BeginInit();
+			((System.ComponentModel.ISupportInitialize)pb2).BeginInit();
+			((System.ComponentModel.ISupportInitialize)pb3).BeginInit();
+			((System.ComponentModel.ISupportInitialize)pb4).BeginInit();
+			((System.ComponentModel.ISupportInitialize)pb5).BeginInit();
+			((System.ComponentModel.ISupportInitialize)pb6).BeginInit();
+			((System.ComponentModel.ISupportInitialize)pb7).BeginInit();
+			((System.ComponentModel.ISupportInitialize)pb8).BeginInit();
+			((System.ComponentModel.ISupportInitialize)pb9).BeginInit();
+			SuspendLayout();
+			// 
+			// pb1
+			// 
+			pb1.BorderStyle = BorderStyle.FixedSingle;
+			pb1.Location = new Point(171, 89);
+			pb1.Name = "pb1";
+			pb1.Size = new Size(80, 80);
+			pb1.TabIndex = 0;
+			pb1.TabStop = false;
+			pb1.Click += UpdateBox;
+			// 
+			// pb2
+			// 
+			pb2.BorderStyle = BorderStyle.FixedSingle;
+			pb2.Location = new Point(248, 89);
+			pb2.Name = "pb2";
+			pb2.Size = new Size(80, 80);
+			pb2.TabIndex = 1;
+			pb2.TabStop = false;
+			pb2.Click += UpdateBox;
+			// 
+			// pb3
+			// 
+			pb3.BorderStyle = BorderStyle.FixedSingle;
+			pb3.Location = new Point(325, 89);
+			pb3.Name = "pb3";
+			pb3.Size = new Size(80, 80);
+			pb3.TabIndex = 2;
+			pb3.TabStop = false;
+			pb3.Click += UpdateBox;
+			// 
+			// pb4
+			// 
+			pb4.BorderStyle = BorderStyle.FixedSingle;
+			pb4.Location = new Point(171, 168);
+			pb4.Name = "pb4";
+			pb4.Size = new Size(80, 80);
+			pb4.TabIndex = 3;
+			pb4.TabStop = false;
+			pb4.Click += UpdateBox;
+			// 
+			// pb5
+			// 
+			pb5.BorderStyle = BorderStyle.FixedSingle;
+			pb5.Location = new Point(248, 168);
+			pb5.Name = "pb5";
+			pb5.Size = new Size(80, 80);
+			pb5.TabIndex = 4;
+			pb5.TabStop = false;
+			pb5.Click += UpdateBox;
+			// 
+			// pb6
+			// 
+			pb6.BackgroundImageLayout = ImageLayout.Center;
+			pb6.BorderStyle = BorderStyle.FixedSingle;
+			pb6.Location = new Point(325, 168);
+			pb6.Name = "pb6";
+			pb6.Size = new Size(80, 80);
+			pb6.TabIndex = 5;
+			pb6.TabStop = false;
+			pb6.Click += UpdateBox;
+			// 
+			// pb7
+			// 
+			pb7.BorderStyle = BorderStyle.FixedSingle;
+			pb7.Location = new Point(171, 245);
+			pb7.Name = "pb7";
+			pb7.Size = new Size(80, 80);
+			pb7.TabIndex = 6;
+			pb7.TabStop = false;
+			pb7.Click += UpdateBox;
+			// 
+			// pb8
+			// 
+			pb8.BorderStyle = BorderStyle.FixedSingle;
+			pb8.Location = new Point(248, 245);
+			pb8.Name = "pb8";
+			pb8.Size = new Size(80, 80);
+			pb8.TabIndex = 7;
+			pb8.TabStop = false;
+			pb8.Click += UpdateBox;
+			// 
+			// pb9
+			// 
+			pb9.BorderStyle = BorderStyle.FixedSingle;
+			pb9.Location = new Point(325, 245);
+			pb9.Name = "pb9";
+			pb9.Size = new Size(80, 80);
+			pb9.TabIndex = 8;
+			pb9.TabStop = false;
+			pb9.Click += UpdateBox;
+			// 
+			// lblHeading
+			// 
+			lblHeading.AutoSize = true;
+			lblHeading.Font = new Font("Showcard Gothic", 13.8F, FontStyle.Regular, GraphicsUnit.Point);
+			lblHeading.ForeColor = Color.White;
+			lblHeading.Location = new Point(209, 34);
+			lblHeading.Name = "lblHeading";
+			lblHeading.Size = new Size(145, 29);
+			lblHeading.TabIndex = 9;
+			lblHeading.Text = "Tic Tac Toe";
+			// 
+			// formTicTacToe
+			// 
+			AutoScaleDimensions = new SizeF(8F, 20F);
+			AutoScaleMode = AutoScaleMode.Font;
+			BackColor = Color.Black;
+			ClientSize = new Size(586, 377);
+			Controls.Add(lblHeading);
+			Controls.Add(pb9);
+			Controls.Add(pb8);
+			Controls.Add(pb7);
+			Controls.Add(pb6);
+			Controls.Add(pb5);
+			Controls.Add(pb4);
+			Controls.Add(pb3);
+			Controls.Add(pb2);
+			Controls.Add(pb1);
+			Name = "formTicTacToe";
+			Text = "Tic Tac Toe";
+			((System.ComponentModel.ISupportInitialize)pb1).EndInit();
+			((System.ComponentModel.ISupportInitialize)pb2).EndInit();
+			((System.ComponentModel.ISupportInitialize)pb3).EndInit();
+			((System.ComponentModel.ISupportInitialize)pb4).EndInit();
+			((System.ComponentModel.ISupportInitialize)pb5).EndInit();
+			((System.ComponentModel.ISupportInitialize)pb6).EndInit();
+			((System.ComponentModel.ISupportInitialize)pb7).EndInit();
+			((System.ComponentModel.ISupportInitialize)pb8).EndInit();
+			((System.ComponentModel.ISupportInitialize)pb9).EndInit();
+			ResumeLayout(false);
+			PerformLayout();
+		}
 
-        #endregion
+		#endregion
 
-        private Label label1;
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private Button button6;
-        private Button button7;
-        private Button button8;
-        private Button button9;
-        private Button button10;
-    }
+		private PictureBox pb1;
+		private PictureBox pb2;
+		private PictureBox pb3;
+		private PictureBox pb4;
+		private PictureBox pb5;
+		private PictureBox pb6;
+		private PictureBox pb7;
+		private PictureBox pb8;
+		private PictureBox pb9;
+		private Label lblHeading;
+	}
 }
